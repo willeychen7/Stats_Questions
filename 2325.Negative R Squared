@@ -1,0 +1,13 @@
+-- In what cases does the coefficient of determination take negative values?
+
+--Solution:
+Coefficient of determination or R-squared is a statistical measure commonly 
+used in a regression model to assess how close is the 
+fitted regression line to the predicted data points.
+
+#################################################################
+##R^2 = 1 - sum(yi-y_hat_i)^2/sum(yi-y_bar)^2 || = 1- (SSR/SST)##
+#################################################################
+
+1. Theoretically， R^2 should be in range(0,1), but also could be NEGATIVE.
+2. Its possible we choose a WRONG MODEL. 
