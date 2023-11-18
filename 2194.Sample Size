@@ -1,0 +1,16 @@
+-- Let's say the population on Meta/Facebook clicks ads with a CTR of P. We select a sample of size N 
+and examine the sample's conversion rate, denoted by P_hat,  what is the minimum sample size N s.t. 
+Prob(|P_hat - P| < delta） = 95%? In other words, find the minimum sample size N s.t. 
+our sample estimate P_hat is within delta of the true CTR P, with 95% Confidence.
+
+
+-- Solution (USE knowledge of ME and CI) 
+
+delta = ME (Margin of Error)
+Z = 1.96 for 95% CL
+
+ME = Z * sqrt(P_hat*(1-P_hat)/N)
+
+##################################
+##N >= (P_hat*(1-P_hat)/(ME/Z)^2## 
+##################################
