@@ -1,0 +1,10 @@
+-- There are 590381 visitors of an online store including 
+269400 [mobile app] users and 320981 [desktop site] users. 
+701 visitors made a purchase: 507 via the mobile app and 194 via the desktop site. 
+What is the base conversion rate for mobile app versus desktop site?
+
+Solution:
+Conversion(mobile) = 507/269400 =0.00188=0.188%
+Coversion(desktop) = 197/320981 =0.00060=0.060%
+
+Conversion for mobile is almost 3 times higher than desktop
